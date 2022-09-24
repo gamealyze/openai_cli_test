@@ -40,4 +40,3 @@ chmod +x "$HOME/bin/${SCRIPT_NAME}"
 
 # run the script
 # "$HOME/bin/${SCRIPT_NAME}" arg1 arg2
-
