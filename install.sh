@@ -25,7 +25,7 @@ SCRIPT_URL="https://raw.githubusercontent.com/gamealyze/openai_cli_test/main/tes
 SCRIPT_NAME=$(basename "$SCRIPT_URL")
 
 # download the script
-curl -s $url -o "$HOME/bin/${SCRIPT_NAME}"
+curl -s $SCRIPT_URL -o "$HOME/bin/${SCRIPT_NAME}"
 
 # verify the script
 # if [ -f "$HOME/bin/${SCRIPT_NAME}" ]; then
