@@ -4,6 +4,8 @@
 # cmd to install curl script
 # curl https://raw.githubusercontent.com/gamealyze/openai_cli_test/main/install.sh | bash -s
 
+echo "curl install script"
+
 # check if $HOME/bin exists
 if [ ! -d "$HOME/bin" ]; then
     mkdir -p "$HOME/bin"
