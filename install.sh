@@ -19,7 +19,7 @@ if [[ ":$PATH:" != *":$HOME/bin:"* ]]; then
 fi
 
 # url to script
-url="https://raw.githubusercontent.com/gamealyze/openai_cli_test/main/testscript.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/gamealyze/openai_cli_test/main/testscript.sh"
 
 # script name is the last part of the URL
 SCRIPT_NAME=$(basename "$SCRIPT_URL")
