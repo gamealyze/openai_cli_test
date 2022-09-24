@@ -6,7 +6,8 @@ setup(
     packages=['openai_cli_test'],
     entry_points={
         'console_scripts': [
-            'openai_cli_test=openai_cli_test.openai_cli_test:cli'
+            'openai_cli_test=openai_cli_test.openai_cli_test:cli',
+            'openauto=bash_scripts/openai_auto.sh'
         ]
     }
 )
